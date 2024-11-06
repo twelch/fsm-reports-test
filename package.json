@@ -33,8 +33,8 @@
     "publish:data": "geoprocessing publish:data",
     "publish:translation": "npx tsx src/i18n/bin/publishTerms.ts",
     "reimport:data": "geoprocessing reimport:data",
-    "start:data": "http-server data/dist -c-1",
     "start:client": "geoprocessing start:client",
+    "start:data": "http-server data/dist -c-1",
     "storybook": "PROJECT_PATH=$(pwd) npx tsx .storybook/genReportStories.ts && storybook dev -p 6006",
     "sync:translation": "npm run extract:translation && npm run publish:translation && npm run import:translation",
     "synth": "geoprocessing synth",
@@ -63,6 +63,7 @@
     "@turf/turf": "7.1.0",
     "@types/request": "^2.48.12",
     "babel-plugin-i18next-extract": "0.10.0",
+    "geoblaze": "2.8.0",
     "geojson-antimeridian-cut": "^0.1.0",
     "globby": "^14.0.2",
     "husky": "^9.1.5",
@@ -70,11 +71,10 @@
     "prop-types": "^15.8.1",
     "react-i18next": "^15.0.1",
     "storybook": "^8.2.9",
+    "union-subdivided-polygons": "^0.9.1",
     "vite": "^5.4.2",
     "vitest": "^2.0.5",
-    "zx": "^8.1.5",
-    "geoblaze": "2.8.0",
-    "union-subdivided-polygons": "^0.9.1"
+    "zx": "^8.1.5"
   },
   "devDependencies": {}
 }

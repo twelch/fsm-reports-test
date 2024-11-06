@@ -37,7 +37,7 @@ async function simpleFunction(
   // Vector example - create list of country EEZ's nearby to the sketch (overlapping with sketch bounding box)
 
   return {
-    area: turfArea(clippedSketch)
+    area: turfArea(clippedSketch),
   };
 }
 

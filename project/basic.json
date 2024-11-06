@@ -1,14 +1,6 @@
 {
-  "bbox": [
-    135.3,
-    -1.2,
-    165.7,
-    13.5
-  ],
-  "languages": [
-    "EN",
-    "pt"
-  ],
+  "bbox": [135.3, -1.2, 165.7, 13.5],
+  "languages": ["EN", "pt"],
   "planningAreaType": "other",
   "planningAreaId": "Micronesia",
   "planningAreaName": "Micronesia",
