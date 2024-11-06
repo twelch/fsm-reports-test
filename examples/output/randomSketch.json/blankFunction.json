@@ -1,0 +1,23 @@
+{
+  "metrics": [],
+  "sketch": {
+    "type": "Feature",
+    "properties": {
+      "id": "3ff42cde-357a-43ae-adcb-cd62a871e7a7",
+      "isCollection": false,
+      "userAttributes": [],
+      "sketchClassId": "c098e212-a6a0-410c-bb55-6dd57cf6e922",
+      "createdAt": "2024-11-06T00:55:39.103Z",
+      "updatedAt": "2024-11-06T00:55:39.103Z",
+      "name": "randomSketch.json"
+    },
+    "id": "3ff42cde-357a-43ae-adcb-cd62a871e7a7",
+    "bbox": [
+      148.67220676811363,
+      5.404377455551593,
+      149.0117403151357,
+      5.801319956116904
+    ],
+    "geometry": null
+  }
+}

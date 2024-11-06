@@ -1,0 +1,18 @@
+{
+  "metrics": [],
+  "sketch": {
+    "type": "Feature",
+    "properties": {
+      "id": "945866e9-04f4-4b48-b50f-90ad261f1c17",
+      "name": "randomFeature.json"
+    },
+    "id": "945866e9-04f4-4b48-b50f-90ad261f1c17",
+    "bbox": [
+      151.91202346075855,
+      4.995947216607875,
+      152.22783269701026,
+      5.329482277994142
+    ],
+    "geometry": null
+  }
+}

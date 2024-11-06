@@ -1,0 +1,223 @@
+{
+  "metrics": [],
+  "sketch": {
+    "properties": {
+      "id": "6c68abb1-ee69-4ff7-b941-bed5db3c4885",
+      "isCollection": true,
+      "userAttributes": [],
+      "sketchClassId": "c61f2f6c-5360-4934-92d3-6de057443797",
+      "createdAt": "2024-11-06T00:55:56.575Z",
+      "updatedAt": "2024-11-06T00:55:56.575Z",
+      "name": "randomSketchCollection.json"
+    },
+    "bbox": [
+      147.7993585839606,
+      4.857190558889154,
+      152.36346733768823,
+      7.504199302635613
+    ],
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "9293bae2-5f51-41ea-975b-6ea766550dc7",
+          "isCollection": false,
+          "userAttributes": [],
+          "sketchClassId": "fe505bac-a79c-4cc7-b505-d69b214c06a6",
+          "createdAt": "2024-11-06T00:55:56.573Z",
+          "updatedAt": "2024-11-06T00:55:56.573Z",
+          "name": "randomSketchCollection.json-1"
+        },
+        "id": "9293bae2-5f51-41ea-975b-6ea766550dc7",
+        "bbox": [
+          150.95868231233078,
+          5.475559016794181,
+          151.28825187801132,
+          5.849675837615526
+        ],
+        "geometry": null
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "9bad30da-cc84-460e-b5bc-f33a9551f465",
+          "isCollection": false,
+          "userAttributes": [],
+          "sketchClassId": "052a0eac-af7d-4e1c-a113-2786cc80f1e2",
+          "createdAt": "2024-11-06T00:55:56.574Z",
+          "updatedAt": "2024-11-06T00:55:56.574Z",
+          "name": "randomSketchCollection.json-1"
+        },
+        "id": "9bad30da-cc84-460e-b5bc-f33a9551f465",
+        "bbox": [
+          147.7993585839606,
+          7.031231569933316,
+          148.12662758279578,
+          7.36225296197096
+        ],
+        "geometry": null
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "3fc8d5cc-3957-4fe7-b73d-c404cdf675af",
+          "isCollection": false,
+          "userAttributes": [],
+          "sketchClassId": "a9545936-91e6-428c-b626-d0643c2ce238",
+          "createdAt": "2024-11-06T00:55:56.574Z",
+          "updatedAt": "2024-11-06T00:55:56.574Z",
+          "name": "randomSketchCollection.json-2"
+        },
+        "id": "3fc8d5cc-3957-4fe7-b73d-c404cdf675af",
+        "bbox": [
+          152.044796128792,
+          7.127569472284326,
+          152.36346733768823,
+          7.504199302635613
+        ],
+        "geometry": null
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "dc27eb1b-478d-4117-a5d9-6fbf597882a3",
+          "isCollection": false,
+          "userAttributes": [],
+          "sketchClassId": "1a4385bc-8e7f-48d5-8b0e-33d778588a54",
+          "createdAt": "2024-11-06T00:55:56.574Z",
+          "updatedAt": "2024-11-06T00:55:56.574Z",
+          "name": "randomSketchCollection.json-3"
+        },
+        "id": "dc27eb1b-478d-4117-a5d9-6fbf597882a3",
+        "bbox": [
+          149.34261977687788,
+          6.0999928087542346,
+          149.77093621792005,
+          6.32670474222918
+        ],
+        "geometry": null
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "c7e2206d-5ee0-487a-abd5-5c06bfed6a7d",
+          "isCollection": false,
+          "userAttributes": [],
+          "sketchClassId": "c8e60a57-16d3-48d1-b38d-bac6fffec561",
+          "createdAt": "2024-11-06T00:55:56.574Z",
+          "updatedAt": "2024-11-06T00:55:56.574Z",
+          "name": "randomSketchCollection.json-4"
+        },
+        "id": "c7e2206d-5ee0-487a-abd5-5c06bfed6a7d",
+        "bbox": [
+          149.34468179400312,
+          5.195008703052891,
+          149.64675824940673,
+          5.562387709339953
+        ],
+        "geometry": null
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "26a4d1b8-86c4-4c07-85cd-ea965cad02f4",
+          "isCollection": false,
+          "userAttributes": [],
+          "sketchClassId": "ad4f466d-5b6e-41dd-a7fb-6dc8142cadce",
+          "createdAt": "2024-11-06T00:55:56.574Z",
+          "updatedAt": "2024-11-06T00:55:56.574Z",
+          "name": "randomSketchCollection.json-5"
+        },
+        "id": "26a4d1b8-86c4-4c07-85cd-ea965cad02f4",
+        "bbox": [
+          151.65386777603453,
+          7.041791559365153,
+          152.06599824847083,
+          7.320415102785506
+        ],
+        "geometry": null
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "9ca8312a-6031-4243-bdc2-53ab18b1d2cc",
+          "isCollection": false,
+          "userAttributes": [],
+          "sketchClassId": "e94693b8-3bfd-44a2-9e85-c63d9304c67c",
+          "createdAt": "2024-11-06T00:55:56.574Z",
+          "updatedAt": "2024-11-06T00:55:56.574Z",
+          "name": "randomSketchCollection.json-6"
+        },
+        "id": "9ca8312a-6031-4243-bdc2-53ab18b1d2cc",
+        "bbox": [
+          149.4724306980136,
+          7.078736813730353,
+          149.8277345343865,
+          7.416572084705805
+        ],
+        "geometry": null
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "4aa9959e-be7b-41af-a5c5-a2f9cc79954c",
+          "isCollection": false,
+          "userAttributes": [],
+          "sketchClassId": "e4395d4a-8c2a-43ea-b689-248554f78d83",
+          "createdAt": "2024-11-06T00:55:56.574Z",
+          "updatedAt": "2024-11-06T00:55:56.574Z",
+          "name": "randomSketchCollection.json-7"
+        },
+        "id": "4aa9959e-be7b-41af-a5c5-a2f9cc79954c",
+        "bbox": [
+          150.22490074458852,
+          4.857190558889154,
+          150.56335315543913,
+          5.044635069253739
+        ],
+        "geometry": null
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "2428feb8-465f-402c-b6d4-95993eda3e04",
+          "isCollection": false,
+          "userAttributes": [],
+          "sketchClassId": "99c86fe5-1bac-4c8d-acd1-fdac334d52cb",
+          "createdAt": "2024-11-06T00:55:56.574Z",
+          "updatedAt": "2024-11-06T00:55:56.574Z",
+          "name": "randomSketchCollection.json-8"
+        },
+        "id": "2428feb8-465f-402c-b6d4-95993eda3e04",
+        "bbox": [
+          151.36044551403162,
+          4.887752637079082,
+          151.68198300739613,
+          5.259541660215848
+        ],
+        "geometry": null
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "4670e97a-a8ac-4bdb-a700-34224c7677de",
+          "isCollection": false,
+          "userAttributes": [],
+          "sketchClassId": "4e6b340d-b067-4503-90f7-c9e23aa907de",
+          "createdAt": "2024-11-06T00:55:56.575Z",
+          "updatedAt": "2024-11-06T00:55:56.575Z",
+          "name": "randomSketchCollection.json-9"
+        },
+        "id": "4670e97a-a8ac-4bdb-a700-34224c7677de",
+        "bbox": [
+          148.15212081023282,
+          6.667403934380712,
+          148.49267703559127,
+          6.8790926068412706
+        ],
+        "geometry": null
+      }
+    ]
+  }
+}
