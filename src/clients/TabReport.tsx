@@ -7,11 +7,15 @@ import {
 } from "@seasketch/geoprocessing/client-ui";
 import Translator from "../components/TranslatorAsync.js";
 import { SimpleCard } from "../components/SimpleCard.js";
+import { CoralReefCard } from "../components/CoralReefCard.js";
 
 const enableAllTabs = false;
 const BaseReport = () => {
   const { t } = useTranslation();
-  const segments = [{ id: "OVERVIEW", label: t("Overview") }];
+  const segments = [
+    { id: "OVERVIEW", label: t("Overview") },
+    { id: "BIOLOGICAL", label: t("Biological") },
+  ];
   const [tab, setTab] = useState<string>("OVERVIEW");
 
   return (
@@ -26,6 +30,9 @@ const BaseReport = () => {
       <ReportPage hidden={!enableAllTabs && tab !== "OVERVIEW"}>
         <SimpleCard />
         <SketchAttributesCard autoHide />
+      </ReportPage>
+      <ReportPage hidden={!enableAllTabs && tab !== "BIOLOGICAL"}>
+        <CoralReefCard />
       </ReportPage>
     </>
   );

@@ -1,0 +1,83 @@
+{
+  "type": "Feature",
+  "properties": {
+    "id": "ad7f76dd-ac94-4ab7-83b2-cbdd3bf72c3f",
+    "isCollection": false,
+    "userAttributes": [
+      {
+        "label": "Type",
+        "fieldType": "ChoiceField",
+        "exportId": "TYPE",
+        "value": "sketch"
+      },
+      {
+        "label": "Notes",
+        "value": "This is a modification of the northern proposed area to account for the new requirements",
+        "exportId": "NOTES",
+        "fieldType": "TextArea"
+      }
+    ],
+    "sketchClassId": "833e0bd4-0dc5-492c-bb38-ba33a9b56e9d",
+    "createdAt": "2024-12-05T05:52:46.920Z",
+    "updatedAt": "2024-12-05T05:52:46.920Z",
+    "name": "sketch1-1"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          153.3227142715882,
+          7.032068895342598
+        ],
+        [
+          153.29423091322874,
+          6.997217820074635
+        ],
+        [
+          153.30723128579356,
+          6.943562133169405
+        ],
+        [
+          153.24256513444425,
+          6.963465830271281
+        ],
+        [
+          153.26030552116856,
+          6.786416825250705
+        ],
+        [
+          153.21594229113254,
+          6.926125793438559
+        ],
+        [
+          153.1884620184296,
+          6.916050495847193
+        ],
+        [
+          153.0871066409031,
+          6.882511057719638
+        ],
+        [
+          153.21363161624976,
+          7.006511012367407
+        ],
+        [
+          153.1947437519472,
+          7.038167517828869
+        ],
+        [
+          153.3227142715882,
+          7.032068895342598
+        ]
+      ]
+    ]
+  },
+  "id": "ad7f76dd-ac94-4ab7-83b2-cbdd3bf72c3f",
+  "bbox": [
+    153.0871066409031,
+    6.786416825250705,
+    153.3227142715882,
+    7.038167517828869
+  ]
+}

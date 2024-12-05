@@ -1,12 +1,14 @@
 import React from "react";
 import { Trans, useTranslation } from "react-i18next";
 import {
+  Collapse,
   ResultsCard,
+  Table,
   useSketchProperties,
 } from "@seasketch/geoprocessing/client-ui";
-import { roundDecimalFormat } from "@seasketch/geoprocessing/client-core";
 // Import SimpleResults to type-check data access in ResultsCard render function
 import { SimpleResults } from "../functions/simpleFunction.js";
+import { roundDecimalFormat } from "@seasketch/geoprocessing/client-core";
 
 export const SimpleCard = () => {
   const { t } = useTranslation();
@@ -26,9 +28,29 @@ export const SimpleCard = () => {
             <>
               <p>
                 <Trans i18nKey="SimpleCard sketch size message">
-                  This {{ sketchStr }} is {{ areaString }} square kilometers.
+                  This {{ sketchStr }} is {{ areaString }} km².
                 </Trans>
               </p>
+              {isCollection && (
+                <Collapse title={t("Area By Sketch")}>
+                  <Table
+                    data={data.childSketchAreas}
+                    columns={[
+                      {
+                        Header: t("Name"),
+                        accessor: "name",
+                      },
+                      {
+                        Header: t("Area (km²)"),
+                        accessor: (row: any) =>
+                          roundDecimalFormat(row.area / 1_000_000, 0, {
+                            keepSmallValues: true,
+                          }),
+                      },
+                    ]}
+                  />
+                </Collapse>
+              )}
             </>
           );
         }}
